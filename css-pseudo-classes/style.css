@@ -1,0 +1,12 @@
+button:hover {
+  background-color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: grey;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
