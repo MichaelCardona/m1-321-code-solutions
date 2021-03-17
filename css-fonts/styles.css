@@ -1,0 +1,13 @@
+h1{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
