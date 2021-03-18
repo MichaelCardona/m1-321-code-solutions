@@ -1,0 +1,60 @@
+.answer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qhead {
+  font-size: 60%;
+  margin: 0 auto;
+  max-width: 340px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+  color: salmon;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+input.answer,
+select.answer {
+  width: 350px;
+  height: 30px;
+}
+
+::placeholder {
+  padding: 2px 2.5px 2px 2.5px;
+  font-size: 12px;
+  font-family: 'AtlasGrotesk', sans-serif;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
+  margin-top: -10px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+select {
+  background-color: rgba(231, 230, 230, 0.678);
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-size: 11px;
+}
