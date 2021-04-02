@@ -45,7 +45,7 @@ h1 {
 }
 
 hr {
-  width: 100%;
+  max-width: 1000px;
   margin-top: 10px;
   height: 2px;
   background-color: #666;
@@ -62,8 +62,8 @@ hr {
 }
 
 .overlay {
-  background: black;
-  opacity: 50%;
+  background: grey;
+  opacity: 20%;
   position: absolute;
   top: 0;
   left: 0;
@@ -111,9 +111,9 @@ hr {
 }
 
 .back-ground {
-  background: rgb(250, 243, 243);
+  background: rgb(251, 247, 247);
   background-size: cover;
-  max-width: 1100px;
+  max-width: 1000px;
 }
 
 .second-section {
@@ -122,7 +122,7 @@ hr {
   align-items: center;
   text-align: center;
   margin-top: 80px;
-  color: rgb(59, 64, 78);
+  color: gray;
 }
 
 .second-head {
@@ -144,7 +144,7 @@ hr {
   margin-bottom: 70px;
   line-height: 60px;
   text-align: center;
-  color: rgb(61, 74, 116);
+  color: gray;
   font-family: 'Avenir', sans-serif;
   font-size: 14px;
   padding-bottom: 50px;
@@ -153,7 +153,7 @@ hr {
 .bottom-left-header > * {
   display: flex;
   font-family: 'Tiempos Headline', sans-serif;
-  color: rgb(61, 74, 116);
+  color: gray;
   max-width: 1000px;
 }
 
@@ -161,11 +161,11 @@ hr {
   font-family: 'Avenir', sans-serif;
   line-height: 30px;
   font-size: 10px;
-  color: rgb(61, 74, 116);
+  color: gray;
   max-width: 1000px;
 }
 
-.bottom-right-container > * {
+.bottom-right-container > .bottom-button {
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -199,7 +199,7 @@ hr {
 .gray-back-ground {
   background: rgb(87, 84, 84);
   background-size: cover;
-  max-width: 1100px;
+  max-width: 1000px;
 }
 
 .gray-header {
@@ -247,6 +247,7 @@ hr {
   margin-top: 30px;
   margin-bottom: 90px;
   font-family: 'Avenir', sans-serif;
+  color: gray;
 }
 
 ul {
