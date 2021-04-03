@@ -3,15 +3,15 @@ var orderHistory = [
     shipTo: 'JS Masher',
     orderNum: '114-3941689-8772232',
     totalPrice: 34.00,
-    items: [{
-      type: 'book',
-      title: 'JavaScript for impatient programmer'
-    }],
-    author: 'Rauschmayer, Dr. Axel',
-    itemPrice: 31.55,
     dateOrder: 'August 4, 2020',
     deliverDate: 'August 8, 2020',
-    returnWindowClosed: 'September 7, 2020'
+    items: [{
+      type: 'book',
+      title: 'JavaScript for impatient programmer',
+      author: 'Rauschmayer, Dr. Axel',
+      itemPrice: 31.55,
+      returnWindowClosed: 'September 7, 2020'
+    }]
   },
   {
     shipTo: 'JS Masher',
