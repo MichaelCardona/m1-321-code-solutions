@@ -1,0 +1,59 @@
+body {
+  font-family: DM sans, sans-serif;
+}
+
+.Header {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fourth-graphic img {
+  max-width: 200px;
+  height: 300px;
+}
+
+.graphic img {
+  max-width: 200px;
+}
+
+.Title {
+  display: flex;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.Title .sub-title {
+  margin-left: 5px;
+  color: lightgray;
+}
+
+.price {
+  display: flex;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.price .salePrice {
+  background-color: rgb(252, 245, 224);
+  border-radius: 2px;
+  padding: 0.7px;
+}
+
+.price .regularPrice {
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: lightgray;
+}
