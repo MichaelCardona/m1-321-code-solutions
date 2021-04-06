@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(54, 145, 230);
+}
+
+* {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+img {
+  width: 50%;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.Main-Header {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.all-containers {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.three-containers {
+  width: calc(100% / 3);
+}
+
+.picture {
+  border-radius: 50%;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
