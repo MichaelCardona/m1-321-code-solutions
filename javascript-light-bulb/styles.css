@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  margin: 0;
+}
+
+.off {
+  background-color: rgb(17, 17, 17);
+}
+
+.on {
+  background-color: rgb(254, 249, 241);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.light-off {
+  background-color: rgb(34, 35, 37);
+  box-shadow: 0 -20px rgb(13, 13, 13);
+}
+
+.light-on {
+  background-color: rgb(250, 234, 132);
+  box-shadow: 0 0 20px rgb(250, 234, 132);
+}
